@@ -1,0 +1,142 @@
+#map {
+    width: 100%;
+    height: calc(97vh + 25px); }
+
+.map-coordinate{
+    position: absolute top;
+    bottom: 0;
+    font-family: 'Lato', sans-serif;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 3px;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff7e;
+    /* border: 1px solid black; */
+    border-radius: 10%;
+}
+
+.full-screen {
+    background-color: #fff;
+    padding: 5px;
+    position: absolute;
+    right: 10px;
+    top: 220px;
+}
+
+.zoom-to-layer{
+    background-color: #fff;
+    padding: 5px;
+    position: absolute;
+    right: 10px;
+    top: 260px;
+}
+
+.imgpopup {
+    overflow: hidden;
+    /*width:200px;*/
+    max-height: 34vh;
+    border: rgb(255, 255, 255) 5px solid;
+    border-color: rgb(241, 227, 96);
+    padding: 5px;
+    text-align: center;
+    display: block;
+    
+}
+
+.leaflet-popup-content-wrapper {
+    
+    background: #ffffffcd;
+    color: rgb(175, 102, 6);
+    font-size: 13px;
+    line-height: 2px;
+    border-radius: 5px;
+    -webkit-box-shadow: 10px 10px 20px 10px rgba(0,0,0,0.73); 
+	box-shadow: 10px 10px 20px 10px rgba(0,0,0,0.73);
+}
+
+.leaflet-popup-content-wrapper .leaflet-popup-content {
+    background: transparent;
+    text-align: justify;
+    text-decoration: none;
+    color: #000000;
+    
+    
+}
+
+.leaflet-popup-tip-container {
+    
+    background: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+.transparent-tooltip {
+    background: transparent;
+    border: 1px solid red;
+    box-shadow: none;
+  }
+  
+  .transparent-tooltip::before {
+    border: none;
+  }
+
+  .natuLabel{
+    position: absolute center;
+    font-size: 15px;
+    font-weight: bold;
+    background: rgba(255, 255, 255, 0);
+    -webkit-text-stroke: 0.5px 1px rgb(255, 255, 255);
+    text-shadow: 2px 2px 5px rgb(255, 255, 255);
+    color: rgb(0, 83, 18);
+    border:1px;
+    border-radius:0px;
+    box-shadow: 0 0px 0px;
+    font-family: 'Lato', sans-serif;
+    bottom: -10px;
+    cursor: pointer;
+
+
+
+  }
+
+  .cultuLabel{
+    position: absolute center;
+    font-size: 15px;
+    font-weight: bold;
+    background: rgba(255, 255, 255, 0);
+    -webkit-text-stroke: 0.5px 1px rgb(255, 255, 255);
+    text-shadow: 2px 2px 5px rgb(255, 255, 255);
+    color: rgb(121, 58, 0);
+    border:1px;
+    border-radius:0px;
+    box-shadow: 0 0px 0px;
+    font-family: 'Lato', sans-serif;
+    bottom: -10px;
+    cursor: pointer;
+  }
+
+  .mpios{
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    font-weight: bold;
+    color: rgb(65, 65, 65);
+  }
+
+  .leaflet-control-layers-expanded .leaflet-control-layers-list {
+    font-size: 12px;
+  }
+
+  .leaflet-control-layers-toggle {
+    font-weight: bold;
+    
+    
+    padding:1px;
+    padding-left:270px;
+    text-decoration:none;
+    line-height:15px;
+  }
+  .leaflet-control-layers-toggle:after {
+    content: 'CAPAS';
+    padding-left: 2em; 
+  }
